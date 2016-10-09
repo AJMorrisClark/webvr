@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+</head>
+<body>
+<script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
+<a-scene>
+  <a-assets>
+   <!-- <img id="sky" src="360-view.jpg">-->
+  </a-assets>
+  <!--<a-sky src="#sky"></a-sky>-->
+  <a-sky color="#000000"></a-sky>
+
+<a-sphere position="0 1.25 -4.82" radius="1.25" color="#FFF" src="http://www.amymorrisclark.com/WebVR/Day_lrg.jpg" rotation="6.875493541569878 -21.199438419840458 -8.594366926962348" material="color:#FFF;src:url(Day_lrg.jpg)" geometry="primitive:sphere;radius:1.25">
+    <a-animation attribute="rotation" dur="70000" to="10 360 0" repeat="indefinite" easing="linear"></a-animation>
+
+  <a-sphere position="3 2 0" radius=".25" color="#FFF" src="http://www.amymorrisclark.com/WebVR/Moon.png" rotation="10 0 0" material="color:#FFF;src:url(Moon.png)" geometry="">
+    <a-animation attribute="rotation" dur="50000" to="3 360 0" repeat="indefinite" easing="linear"></a-animation></a-sphere>
+
+
+</a-scene>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
